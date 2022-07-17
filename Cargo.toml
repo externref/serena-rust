@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 serenity = "0.11"
 tokio = { version = "1", features = ["full"] }
+sqlx = { version = "0.5.7", features = ["runtime-tokio-rustls", "sqlite", "offline"] }

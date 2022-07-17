@@ -13,3 +13,10 @@ Cargo.lock
 # Added by cargo
 
 /target
+
+# my stuff
+.env
+*sqlite
+prefixes.sqlite-wal
+.gitignore
+prefixes.sqlite-shm
